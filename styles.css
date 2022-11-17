@@ -9,3 +9,11 @@ body {
 h1 {
     background-color: red;
 }
+
+img {
+    width: 400px;
+}
+
+p, h3, ul, li {
+    color:white;
+}
