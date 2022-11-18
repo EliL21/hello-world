@@ -4,7 +4,7 @@ property: value;
 
 
 body {
-    background-color: black;
+    background-color:white;
 }
 h1 {
     background-color: red;
@@ -15,5 +15,5 @@ img {
 }
 
 p, h3, ul, li {
-    color:white;
+    color:black;
 }
