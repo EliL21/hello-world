@@ -11,16 +11,23 @@ alert("Hello and welcome");
         console.log("The user's name is: ", usersName);
         document.write("Hello and welcome to my page, "+ usersName);
         }
-
+function likeGuitar(){
         let response = prompt("do you like guitar's?")
         response = response.toLocaleLowerCase();
         if (response == "yes"){
             alert("You've come to the right page!")
-        } else if(response == "no"){
+        } 
+        else if(response == "no"){
         alert("I'm sure I can change your mind");
         }
+        else if(response == ""){
+            alert("Please type yes or no");
+            response = prompt("Please tell me if you like guitar's...."); 
+        }
+        
         
             else { 
                 alert("I'm not sure what that means...");
 
             }
+        }
