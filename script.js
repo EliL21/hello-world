@@ -32,7 +32,7 @@ function likeGuitar(){
         }
 function ownGuitars(){
     let own  = prompt ("If you can own a guitar today, how many would you buy? ");
-    for (let i = 0; i <= own; i++){
+    for (let i = 0; i < own; i++){
         
         document.write("<img class='own-guitar' src='guitar.jpg' alt='guitar rating'/>"); 
     }
