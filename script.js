@@ -2,8 +2,7 @@ alert("Hello and welcome");
 
         function sayHi() {
         let usersName = prompt ("what is your name?");
-        if (usersName == ""){
-            alert("I don't see a Name....");
+        while (usersName == ""){
             usersName = prompt("Please tell me your name"); 
         }
 
@@ -31,3 +30,10 @@ function likeGuitar(){
 
             }
         }
+function ownGuitars(){
+    let own  = prompt ("If you can own a guitar today, how many would you buy? ");
+    for (let i = 0; i <= own; i++){
+        
+        document.write("<img class='own-guitar' src='guitar.jpg' alt='guitar rating'/>"); 
+    }
+}
